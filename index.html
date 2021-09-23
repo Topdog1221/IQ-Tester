@@ -32,10 +32,12 @@
   left: 43%;
 }
   </style>
+  <h3 style="position: fixed;top: 40%;left: 43%;visibility: hidden;" id="HiddenText">Your A DumbAss</h3>
   <button class="button centered" onclick="TestIQ()">IQ Test</button>
   <script>
     function TestIQ(){
-     <h3 style="top: 40%;left: 43%;color: black;">Your A dumbass</h3>
+     var x = document.getElementById("HiddenText");
+      x.style.display = "none";
     }
   </script>
 </head>
